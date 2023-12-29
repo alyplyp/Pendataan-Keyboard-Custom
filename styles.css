@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.navbar-brand img {
+    width: 10%;
+    display: inline-block;
+}
